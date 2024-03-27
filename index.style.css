@@ -57,3 +57,14 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+.round-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.round-images img {
+  border-radius: 50%;
+  width: 150px; /* Sie können die Breite nach Bedarf ändern */
+  height: 150px; /* Sie können die Höhe nach Bedarf ändern */
+}
